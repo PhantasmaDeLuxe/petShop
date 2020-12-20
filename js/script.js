@@ -28,6 +28,7 @@ window.onclick = function(event) {
     if(event.target == modal) {
         modal.classList.remove('block') 
         body.classList.remove('no-scroll')
+        burger.classList.remove('top-header__burger-active')
     }
 }
 /******* Открыть подменю наведением мыши на заголовок ******/
